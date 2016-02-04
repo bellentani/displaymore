@@ -4,11 +4,12 @@ Plugin para exibir listagem em grupos para diversas finalidades. Está em fase i
 Portanto, conforme for melhorando o plugin vou disponibilizando com comentários e documentação mais detalhada.
 
 ##Estrutura de Pasta##
-Por enquanto vocês encontram duas pastas, a ``dev/*`` onde estão os arquivos originais (com SASS e não minificados, se alguém tiver interesse. e a pasta ``dist/`` que tem os arquivos prontos pra uso.
+Por enquanto vocês encontram duas pastas, a ``dev/`` onde estão os arquivos originais (com SASS e não minificados, se alguém tiver interesse e a pasta ``dist/`` que tem os arquivos prontos pra uso.
 
 O exemplo principal você acha no arquivo ``sample.html``.
 
 No momento existem duas configurações possíveis:
+
 1. Via data-set
 2. Via Javascript (via options)
 
