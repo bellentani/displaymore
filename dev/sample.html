@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+include "head-metatags-model.html"
+include "head-css-scripts-global.html"
+</head>
+<body>
+<!--[if lt IE 8]>
+    <p class="browserupgrade">Você está usando um navegador <strong>antigo</strong>. Por favor, <a href="http://browsehappy.com/">atualize seu navegador</a> para uma melhor experiência.</p>
+<![endif]-->
+<div class="tiles-left"></div>
+<div class="tiles-body">
+  include "header.html"
+  <main role="main" class="container">
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Exemplo do plugin com atributos data-set</h2>
+      <!-- Altere o atributo data-list-items para mudar a quantidade de itens que aparecem -->
+      <ul data-list data-list-items="5" data-list-btn-text="More items" class="list-unstyled">
+        <li data-list-target>item 1</li>
+        <li data-list-target>item 2</li>
+        <li data-list-target>item 3</li>
+        <li data-list-target>item 4</li>
+        <li data-list-target>item 5</li>
+        <li data-list-target>item 6</li>
+        <li data-list-target>item 7</li>
+        <li data-list-target>item 8</li>
+        <li data-list-target>item 9</li>
+        <li data-list-target>item 10</li>
+        <li data-list-target>item 11</li>
+        <li data-list-target>item 12</li>
+        <li data-list-target>item 13 e último</li>
+      </ul>
+      <h2>Exemplos de plugin via Javascript</h2>
+      <ul class="list-unstyled data-list-js">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+        <li>item 8</li>
+        <li>item 9</li>
+        <li>item 10</li>
+        <li>item 11</li>
+        <li>item 12</li>
+        <li>item 13 e último</li>
+      </ul>
+    </div>
+  </div>
+</div>
+  </main>
+</div>
+<div class="tiles-right"></div>
+include "footer.html"
+include "footer-scripts-default.html"
+</body>
+</html>

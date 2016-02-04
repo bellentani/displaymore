@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAiB,CACf,OAAO,CAAE,GAAG,CAGd,EAAG,CACD,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,iBAAiB,CACzB,gBAAgB,CAAE,OAAO,CACzB,aAAa,CAAE,GAAG,CAClB,OAAO,CAAE,GAAG,CACZ,MAAM,CAAE,OAAO",
+"sources": ["../../dev/sass/project/_displaymore.scss"],
+"names": [],
+"file": "displaymore.css"
+}
